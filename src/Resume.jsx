@@ -8,14 +8,14 @@ const Resume = () => {
       id="resume"
       className="min-h-screen w-full bg-gradient-to-b from-gray-900 to-black"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 md:py-20 py:16 flex flex-col items-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 md:py-20 py-12 flex flex-col items-center">
         {/* Heading */}
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-orange-100 mb-12 text-center">
           Resume
         </h2>
 
         {/* Resume Card */}
-        <div className="w-full max-w-4xl bg-black/40 rounded-2xl shadow-lg p-6 sm:p-8 md:p-10 text-orange-100">
+        <div className="w-full max-w-4xl bg-black/40 rounded-2xl shadow-lg p-2 sm:p-8 md:p-10 text-orange-100">
           {/* Name */}
           <h3 className="text-2xl sm:text-3xl font-semibold mb-2">
             Umang Singh
