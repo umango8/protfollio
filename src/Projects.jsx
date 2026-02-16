@@ -7,7 +7,7 @@ import FadeIn from "./components/FadeIn";
 import image from "../src/assets/imagee.png";
 import image2 from "../src/assets/password generator.png";
 import image3 from "../src/assets/music.png";
-import image4 from "../src/assets/blog.png";
+import image4 from "../src/assets/protfollio.jpg";
 import image5 from "../src/assets/ecommerce1.png";
 import image6 from "../src/assets/login.png";
 
@@ -120,8 +120,8 @@ const Projects = () => {
       about:
         "This portfolio project showcases my web development skills, projects, and experience through a clean, responsive, and modern design.",
       image: image4,
-      codeLink: "#",
-      liveLink: "#",
+      codeLink: "https://github.com/umango8/protfollio",
+      liveLink: "https://protfollio-two.vercel.app/",
     },
   ];
 
