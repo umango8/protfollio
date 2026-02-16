@@ -155,7 +155,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="relative min-h-screen w-full bg-gradient-to-b from-black to-gray-900 overflow-hidden scroll-mt-20"
+      className="relative  w-full bg-gradient-to-b from-black to-gray-900 overflow-hidden scroll-mt-20"
     >
       {/* Background Animation */}
       <div className="hidden md:grid absolute inset-0 z-0 opacity-10 pointer-events-none grid-cols-2 lg:grid-cols-3 gap-4 px-12">
@@ -165,7 +165,7 @@ const Projects = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 md:px-12 py-20">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 md:px-12 py-20 ">
         <FadeIn>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-orange-100 mb-12 text-center">
             Projects

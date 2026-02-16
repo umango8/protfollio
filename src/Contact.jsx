@@ -9,7 +9,7 @@ const Contact = () => {
     <FadeIn>
       <section
         id="contact"
-        className="relative min-h-screen w-full bg-black overflow-hidden"
+        className="relative  w-full bg-black overflow-hidden"
       >
         {/* Animated Background */}
         <div className="absolute inset-0 z-0 overflow-hidden">
@@ -17,7 +17,7 @@ const Contact = () => {
         </div>
 
         {/* Content */}
-        <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 md:px-12 py-24 text-center">
+        <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 md:px-12 py-24  text-center">
           {/* Heading */}
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-orange-100 mb-4">
             Contact Me

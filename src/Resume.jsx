@@ -8,7 +8,7 @@ const Resume = () => {
       id="resume"
       className="min-h-screen w-full bg-gradient-to-b from-gray-900 to-black"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 py-20 flex flex-col items-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 md:py-20 py:16 flex flex-col items-center">
         {/* Heading */}
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-orange-100 mb-12 text-center">
           Resume

@@ -18,7 +18,7 @@ const AutoScrollRow = ({ direction = "up" }) => {
       : screenshots.length * 220;
 
   return (
-    <div className="relative h-full overflow-hidden">
+    <div className="relative  overflow-hidden">
       <motion.div
         className="flex flex-col items-center gap-4"
         animate={{ y: isUp ? [0, -distance] : [-distance, 0] }}
@@ -41,7 +41,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="relative min-h-screen w-full bg-gradient-to-b from-black to-gray-900 overflow-hidden scroll-mt-20"
+      className="relative  w-full bg-gradient-to-b from-black to-gray-900 overflow-hidden scroll-mt-20"
     >
       {/* Background animation (desktop only) */}
       <div className="hidden md:grid absolute inset-0 z-0 opacity-10 pointer-events-none grid-cols-2 lg:grid-cols-3 gap-4 px-12">
@@ -51,7 +51,7 @@ const About = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 md:px-12 py-20 text-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 md:px-12 md:py-20 py-16 text-center">
         {/* Heading */}
         <FadeIn>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-orange-100 mb-10">
