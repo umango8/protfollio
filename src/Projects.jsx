@@ -165,14 +165,14 @@ const Projects = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 md:px-12 py-20 ">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 md:px-12 md:py-20 sm:py-12 py-6">
         <FadeIn>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-orange-100 mb-12 text-center">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-orange-100 md:mb-12 mb-4 text-center">
             Projects
           </h2>
         </FadeIn>
 
-        <div className=" grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div className=" grid md:gap-8 gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {mainProjects.map((project, index) => (
             <FadeIn key={index} delay={index * 0.1}>
               <ProjectCard project={project} />

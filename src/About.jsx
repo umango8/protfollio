@@ -51,7 +51,7 @@ const About = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 md:px-12 md:py-20 py-16 text-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 md:px-12 md:py-20 sm:py-12  py-6 text-center">
         {/* Heading */}
         <FadeIn>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-orange-100 mb-10">
